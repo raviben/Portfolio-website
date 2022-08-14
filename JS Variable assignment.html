@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Variables</title>
+</head>
+<body>
+    <script>
+        var data = 50;
+        function a() {
+            document.write("Global variable = ");
+            document.writeln(data);
+        }
+        function b() {
+            var data =100;
+            document.write("<br>");
+            document.write("Local variable = ");
+            document.writeln(data);
+        }
+        a();
+        b();
+    </script>
+</body>
+</html>
