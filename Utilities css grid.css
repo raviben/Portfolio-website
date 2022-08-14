@@ -1,0 +1,16 @@
+:root{
+    --backgroundColor: #111 ;
+    --textColor: #fff;
+    --gridFont: sans-serif;
+}
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--backgroundColor);
+    color: var(--textColor);
+}

@@ -1,0 +1,15 @@
+.container{
+    background-color: azure;
+    padding: 15px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.item{
+    background-color: black;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
